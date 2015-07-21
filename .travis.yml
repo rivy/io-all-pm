@@ -14,3 +14,6 @@ script:
    - cover
 after_success:
   - cover -report coveralls
+
+notifications:
+  slack: dreamstatedesign:xssjiVen1x56wwNxYMsTaM2d
